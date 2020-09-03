@@ -1,0 +1,60 @@
+<!DOCTYPEHTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> STP21</title>
+    </head>
+    
+    <body>
+        <div style="text-align: center;">
+            <a href="http://stp-org.com/"><img src="STP.jpg" wideth="100" height="150" alt="STP logo"></a>
+        </div>
+        
+        <div id="content"> 
+            <hr>
+        <h1 style="text-align:center;">About us</h1>
+        <p  style="text-align:center;font-size:120%;"> STP was founded in 2006 at Cairo university; The purpose of STP is to strengthen the leadership, skills, effectiveness and efficiency of involved people; enabling them to further enrich the quality of the community and their personal life. </p>
+        
+        <h2 style="text-align:center;">Overview</h2>
+        
+        <p  style="text-align:center;font-size:120%;"> STP "Steps Towards Progress" is a student activity which was held for the first time in the academic year 2005/2006; It is completely managed and organized by students under the supervision of The Association of Friends of the National Cancer-free Intiative (AFNCI), the idea was raised to provide students with the skills needed by the supplementary skills needed in the labor market. STP's Vision is "Being a leading organization working on developing youth who will lead the positive change." STP attempts to deliver values and achieve its vision through 3 different projects: -Conference (Engineering & Management) -Juniors -Events </p>
+        
+        <h3 style="text-align:center;">Vision</h3>
+        
+        <p  style="text-align:center;font-size:120%;"> To be a Leading organization working on developing youth who will lead positive changes.</p>
+        
+        <h4 style="text-align:center;">Mission</h4>
+        
+        <p  style="text-align:center;font-size:120%;">To develop youth in various fields personally and technically through academic programs, projects, and events in a values oriented system, to take our part in providing a generation capable of playing its roles effictively towards itself, community and country. </p>
+        
+        <hr>
+            <form>
+            <input type="text" id="text_input"/>
+            <input type="button" value="Change color" id="btn_input"/>
+        </form>
+        <h5 >contact us</h5>
+        
+        <p style="font-size:120%;">You can find us on:</p>
+        <a href="https://www.facebook.com/STP.Organization"><img src="index.png" wideth="40" height="50"></a>
+        <a href="www.twitter.com/STP_Egypt"> <img src="index2.png" wideth="40" height="50"></a>
+        <a href="http://instagram.com/STP_Egypt"> <img src="index3.jfif" wideth="40" height="50"></a>
+        <a href=" https://www.youtube.com/user/STPchannel"> <img src="index4.png" wideth="40" height="50"></a>
+        <a href="https://www.google.com/+STPchannel"> <img src="index5.jfif" wideth="40" height="50"></a>
+        <a href="http://stp-org.com/"> <img src="STP.Jpg" wideth="40" height="50"></a>
+            
+        </div>
+        
+    </body>
+    <script>
+        cssText = "black";
+       content = document.getElementById("content")
+        
+        btn = document.getElementById("btn_input")
+        btn.onclick = function(){
+            cssText = document.getElementById("text_input").value
+            content.setAttribute("style", "color:" + cssText + ";")
+        }
+    </script>
+</html>
